@@ -1,5 +1,4 @@
 from urllib import request
-import requests as req
 
 
 class Redash:
