@@ -1,4 +1,5 @@
 from urllib import request
+import requests as req
 
 
 class Redash:
@@ -15,13 +16,13 @@ class Redash:
                 self,
                 query_id: str,
                 api_key: str,
-                filename: str = 'results.csv'):
+                filename: str = 'results.csv') -> None:
             """
 
             Args:
-                query_id (str) :
-                api_key (str) :
-                filename:
+                query_id (str) : specific query id
+                api_key (str) : api authorization key
+                filename (str) : output file name
 
             Returns:
 

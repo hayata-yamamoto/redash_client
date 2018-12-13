@@ -3,3 +3,5 @@
 __version__ = '0.1.0'
 __author__ = 'hayata-yamamoto <hayata.yamamoto.work@gmail.com>'
 __all__ = []
+
+from .Redash import Redash
